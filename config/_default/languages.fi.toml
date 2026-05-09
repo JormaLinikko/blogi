@@ -1,0 +1,28 @@
+disabled = false
+locale = "fi"
+label = "Suomi"
+weight = 1
+title = "Jorman blogi"
+
+[params]
+  displayName = "FI"
+  isoCode = "fi"
+  rtl = false
+  dateFormat = "2.1.2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "Jorman henkilökohtainen blogi"
+  # copyright = "© Jorma Linikko"
+
+# [params.author]
+#   name = "Jorma Linikko"
+#   email = "jorma.linikko@talous365.com"
+#   image = "img/blowfish_logo.png"
+#   imageQuality = 96
+#   headline = "Reflektioita ja synteesejä"
+#   bio = "Lyhyt esittely itsestäsi"
+#   links = [
+#     { email = "mailto:jorma.linikko@talous365.com" },
+#     { github = "https://github.com/JormaLinikko" },
+#     { linkedin = "https://linkedin.com/in/username" },
+#   ]

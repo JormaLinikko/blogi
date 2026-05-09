@@ -1,0 +1,39 @@
+# -- Päävalikko --
+# Päävalikko näkyy sivun yläpalkissa.
+# Sallitut parametrit: name, pageRef, page, url, title, weight.
+#
+# Yksinkertaisin asetus:
+#   name = Linkin näytettävä nimi
+#   pageRef = Linkin kohdesivun tai osion tunniste
+#
+# Oletuksena valikko on aakkosjärjestyksessä. Tämän voi ohittaa
+# antamalla weight-arvon — pienempi weight tulee ensin.
+
+#[[main]]
+#  name = "Blogi"
+#  pageRef = "posts"
+#  weight = 10
+
+#[[main]]
+#  name = "Kategoriat"
+#  pageRef = "categories"
+#  weight = 20
+
+#[[main]]
+#  name = "Tagit"
+#  pageRef = "tags"
+#  weight = 30
+
+
+# -- Alapalkin valikko --
+# Alapalkin valikko näkyy sivun alaosassa juuri ennen tekijänoikeustietoja.
+
+# [[footer]]
+#   name = "Tagit"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[footer]]
+#   name = "Kategoriat"
+#   pageRef = "categories"
+#   weight = 20
